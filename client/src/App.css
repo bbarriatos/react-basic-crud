@@ -1,0 +1,31 @@
+.userForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+header h2 { margin: 0 !important; }
+header button { margin-top: 0 !important; }
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+header .wrapper > div {
+    width: 50%;
+}
+
+.dashboard-flex > div {
+    width: 50%;
+}
